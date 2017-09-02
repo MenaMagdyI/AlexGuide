@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imageplace"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi there! Test"
+        android:textSize="20dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:paddingLeft="16dp"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+</LinearLayout>

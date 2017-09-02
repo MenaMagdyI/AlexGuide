@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AlexGuid</string>
+    <string name="title_activity_places">PlacesActivity</string>
+    <string name="title_activity_atrraction">AtrractionActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Attraction_fragment">Attractions</string>
+    <string name="Resturant_fragment">Resturants</string>
+    <string name="Places_fragment">Places</string>
+</resources>
